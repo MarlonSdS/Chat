@@ -1,0 +1,44 @@
+.Home{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.chatlist{
+    height: 100%;
+    background-color: #282a36;
+}
+
+.inputbox{
+    position: fixed;
+    width: 34%;
+    right: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #44475a;
+}
+
+.inputbox textarea{
+    height: 50vh;
+    width: 85%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 1%;
+    font-size: 2.8vh;
+}
+
+.inputbox input{
+    height: 10vh;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 3vh;
+}
+
+.inputbox button{
+    height: 10vh;
+    width: 85%;
+    margin: auto;
+    border-radius: 15px;
+}
