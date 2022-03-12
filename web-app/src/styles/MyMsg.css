@@ -1,0 +1,30 @@
+.mymsg{
+    background: linear-gradient(#ff79c6, #ff79c6,#bd93f9);
+    border: solid #bd93f9 1px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    text-align: center;
+}
+
+.mymsg h1{
+   color: #ffb86c;
+   display: flex;
+   justify-content: start;
+   margin-left: 1%;
+}
+
+.mymsg p{
+    color: #44475a;
+    font-size: 2vh;
+}
+
+.mymsg span{
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+    color: #5d5e62b5;
+}

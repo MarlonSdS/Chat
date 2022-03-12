@@ -1,0 +1,30 @@
+.outmsg{
+    background: linear-gradient(#8be9fd, #6272a4, #6272a4);
+    border: solid #6272a4 1px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    text-align: center;
+}
+
+.outmsg h1{
+   color: #ffb86c;
+   display: flex;
+   justify-content: start;
+   margin-left: 1%;
+}
+
+.outmsg p{
+    color: #44475a;
+    font-size: 2vh;
+}
+
+.outmsg span{
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+    color: #5d5e62b5;
+}
