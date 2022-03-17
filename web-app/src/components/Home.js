@@ -24,6 +24,7 @@ export default function Home(){
 
   function updateMessages(message){
     messages.push(message)
+    console.log(message)
     localStorage.setItem('messages', JSON.stringify(messages))
   }
   
@@ -32,7 +33,8 @@ export default function Home(){
     e.preventDefault()
     var user = document.getElementById('user').value
     var content = document.getElementById('content').value
-    var time = Date.now()
+    var d = new Date
+    var time = ''+ d.getHours() + ':' + d.getMinutes()
     var message = {user: user, content: content, time: time}
     socket.emit('sendMessages', message)
     document.getElementById('content').value = ''

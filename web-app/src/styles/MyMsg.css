@@ -29,3 +29,13 @@
     margin-right: 2%;
     color: #5d5e62b5;
 }
+
+@media (max-width: 1000px){
+    .mymsg{
+        min-height: 10vh;
+    }
+
+    .mymsg h1{
+        font-size: 2.5vh;
+    }
+}
